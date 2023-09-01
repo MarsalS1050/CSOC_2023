@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Michroma&family=Poppins&family=Roboto:wght@100;300&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1D2128;
+}
+
+/* Nav Bar Css  */
+header{
+    background: #262626;
+
+}
+
+li{
+    list-style:none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background: #1D2128;
+    position: fixed;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 9;
+    width: 100vw;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    gap: 60px;
+
+}
+
+.nav-branding{
+    font-size: 2rem;
+
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: dodgerblue;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+
+@media(max-width: 768px){
+    .hamburger{
+
+        display: block;
+        
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar{
+        position: fixed;
+        background: #1D2128;
+        width: 100vw;
+        z-index: 9;
+    }
+    .nav-menu{
+        z-index: 9;
+        position: fixed;
+        Left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.4s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        Left: 0;
+    }
+
+    
+
+}
