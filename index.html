@@ -33,8 +33,124 @@
         </nav>
     </header>
 
+    <section id="home">
+        <h1>
+            <marquee direction="left">
+                Indian Space Exploration...
+            </marquee>
+        </h1>
+    </section>
+    <section>
+        <div class="container reveal" id="projects">
+            <h2>Recent Successful Projects Of ISRO</h2>
+
+            <div class="cards">
+                <div class="text-cards">
+                    <h3>Chandrayaan-3, 2023</h3>
+                    <img src="Assets/chandrayaan3.jpeg" alt="">
+                    <p>Chandrayaan-3 is the next mission after Chandrayaan-2, 
+                        which aims to land safely and explore the moon's surface. With its success,<span id="dots1">...</span><span id="more1"> India has become one of the four elite nations in the world to have landed on the Moon,
+                         after the US, and China. It is a major historical event not only for India but for the whole world. India has become the first nation in the world to successfully land on the South Pole of the Moon</span></p>
+                         <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                </div>
+                <div class="text-cards">
+                    <h3>Mars Orbiter Mission (MOM), 2014</h3>
+                    <img src="Assets/MOM.jpeg" alt="">
+                    <p>With the Mars Orbiter Mission, popularly known as MOM, India became the first nation to reach the red planet Mars on its first try. It was also<span id="dots2">...</span><span id="more2"> the nation’s first interplanetary mission. Mangalyaan was launched on November 5, 2013, by the PSLV-C25 rocket, from Sriharikota. With this, ISRO became the fourth space agency to successfully launch a spacecraft into orbit around Mars. Despite having a mission duration of 6 months, MOM has been in orbit for 7 years as of September 24, 2021.</span></p>
+                    <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                </div>
+                <div class="text-cards">
+                    <h3>Chandrayaan-1, 2008</h3>
+                    <img src="Assets/chandrayaan1.jpeg" alt="">
+                    <p>It was India’s first mission to the Moon. Launched successfully on October 22, 2008, the mission turned out to be one of the biggest scientific breakthroughs<span id="dots3">...</span><span id="more3"> as the craft detected the presence of water molecules on the lunar surface. It was through Chandrayaan-1 that the world got to know about water on the Moon</span></p>
+                    <button onclick="myFunction3()" id="myBtn3">Read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container reveal">
+            <h2>Mentionable Figures</h2>
+
+            <div class="cards" id="cards-mf">
+                <div class="card">
+                    <img src="Assets/nambi_narayan.png" alt="Raccon">
+                    <div class="intro" id="intro1">
+                        <h1>Nambi Narayanan</h1>
+                        <p>To be successful in anything keep your thoughts like one and only compulsory rather than either or choice</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/Somnath.png" alt="Raccon">
+                    <div class="intro" id="intro2">
+                        <h1>S Somanath</h1>
+                        <p>I am an explorer. I explore the Moon. I explore the inner space. So it's a part of the journey of my life to explore both science and spirituality.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/Veeramuthuvel.png" alt="Raccon">
+                    <div class="intro" id="intro3">
+                        <h1>Veeramuthuvel</h1>
+                        <p>Everybody has got opportunities and it all depends on how you utilise opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me -->
+    <section class="contact-us" id="contactUs">
+        <div class="container reveal">
+            <div class="contacts">
+                <h2>Contact Us</h2>
+                <div class="contact-form">
+
+                    <form action="https://formspree.io/f/xleynekr" method="POST">
+                        <label for="first">First Name</label><br>
+                        <input type = "text" name="first" placeholder="First name" required>
+                        <br>
+                        <label for="last">Last Name</label><br>
+                        <input type = "text" name="last" placeholder="last name" required>
+                        <br>
+                        <label for="email">E-mail</label><br>
+                        <input type = "email" name="email" placeholder="email address" required>
+                        <br>
+                        <label for="message">Enter your message..</label>
+                        <textarea rows="5" cols="60" name="message" placeholder="Enter text" required>
+                        </textarea>
+                        
+                        <button type="submit" class="btn btn1" id="btn1">Send Message</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
 
 
+    <script src="https://kit.fontawesome.com/e58298a143.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i=0; i<reveals.length; i++){
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight -revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
