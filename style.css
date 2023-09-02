@@ -8,6 +8,11 @@
 body{
     background: #1D2128;
 }
+
+#home{
+    background-image: url("Assets/homebg.jpg");
+    filter: contrast(200%);
+}
 section{
     min-height: 100vh;
     display: flex;
@@ -127,6 +132,7 @@ a{
     justify-content: space-between;
     align-items: right;
     gap: 60px;
+    margin-right: 50px;
 
 }
 
@@ -140,7 +146,7 @@ a{
 }
 .nav-link:hover{
     color: dodgerblue;
-    font-size: 23px;
+    text-shadow: 3px 2px 3px #2c9bf0;
 }
 
 .hamburger{
