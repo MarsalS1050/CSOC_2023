@@ -7,25 +7,8 @@ A simple web project made using HTML, CSS and JS on the theme <b>INDIAN SPACE EX
   <li>A responsive nav bar which allows user to navigate through different sections.</li>
   <li>Project Info cards for some info on recent succesful projects, user can choose to preview more or less content by click "read more/read less".</li>
   <li>A contact Page which collects queries or feedback of the user through a form.</li>
+  <li>Added a user friendly, easy to read information page about the HISTORY, FUTURE PROJECTS and ACHIEVEMENTS of ISRO.</li>
 </ul>
 
 ## Home Page
-
-![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/26712887-b619-4e69-aff4-80a9c51bfefa)
-
-<ul>
-  <li></li>
-</ul>
-
-## Projects Display Section
-
-![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/7a745790-1ad5-4c9d-8c64-3793bebbbadb)
-
-## Featured Inspiring Members of ISRO
-
-![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/6854d1c5-c670-4d75-9e8a-41c80e390944)
-
-## Contact Us Page
-
-![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/e5534fa2-1cb0-4ba1-b440-d769492ead96)
-
+![Screenshot 2023-09-03 095236](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/e5415ae6-5945-41de-9778-b682e10db2c6)
