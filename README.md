@@ -11,7 +11,8 @@ A simple web project made using HTML, CSS and JS on the theme <b>INDIAN SPACE EX
 
 ## Home Page
 
-![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/af988f1b-f16a-4573-b482-ad2c607702ac)
+![image](https://github.com/MarsalS1050/CSOC_2023/assets/143715510/26712887-b619-4e69-aff4-80a9c51bfefa)
+
 <ul>
   <li></li>
 </ul>
