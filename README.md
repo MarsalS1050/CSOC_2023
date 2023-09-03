@@ -1,5 +1,6 @@
 # CSOC_2023 : Indian Space Exploration🚀 (HTML + CSS + JS)
-A simple web project made using HTML, CSS and JS on the theme <b>INDIAN SPACE EXPLORATION</b> which consists of multiple webpages showcasing the accomplishments and give a brief info about of ISRO which is aimed at ...
+A simple web project made using HTML, CSS and JS on the theme <b>INDIAN SPACE EXPLORATION</b> which consists of multiple webpages showcasing the accomplishments and give a brief info about of ISRO which is aimed at  providing comprehensive information about the Indian Space Research Organisation (ISRO), its history, achievements, and future prospects in the field of space exploration. 
+
 
 
 ## Features
