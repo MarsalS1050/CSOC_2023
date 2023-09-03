@@ -62,3 +62,10 @@ function myFunction3() {
     }
     
   }
+
+  var typed = new Typed(".auto-type", {
+    strings: ["Exploration", "History", "Achievements", "Future Prospects"],
+    typeSpeed: 200,
+    backSpeed: 200,
+    loop: true
+  })
