@@ -39,7 +39,7 @@
 /* Body Part */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #24292d;
+    background: url('/Assets/bg2.jpg');
 }
 header{
     display: inline;
@@ -54,7 +54,7 @@ header .head{
 }
 
 .timeline-section{
-	background-color: #24292d;
+	background: transparent;
 	min-height: 100vh;
 	padding: 100px 15px;
 }
