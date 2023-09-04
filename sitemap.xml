@@ -8,24 +8,29 @@
 
 
 <url>
-  <loc>https://sudo-space-web-1050.netlify.app/</loc>
-  <lastmod>2023-09-03T16:18:25+00:00</lastmod>
+  <loc>https://marsals1050.github.io/CSOC_2023/</loc>
+  <lastmod>2023-09-04T01:53:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://sudo-space-web-1050.netlify.app/history</loc>
-  <lastmod>2023-09-03T16:18:25+00:00</lastmod>
+  <loc>https://marsals1050.github.io/CSOC_2023/history.html</loc>
+  <lastmod>2023-09-04T01:53:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudo-space-web-1050.netlify.app/achievements</loc>
-  <lastmod>2023-09-03T16:18:25+00:00</lastmod>
+  <loc>https://marsals1050.github.io/CSOC_2023/achievements.html</loc>
+  <lastmod>2023-09-04T01:53:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://sudo-space-web-1050.netlify.app/future</loc>
-  <lastmod>2023-09-03T16:18:25+00:00</lastmod>
+  <loc>https://marsals1050.github.io/CSOC_2023/future.html</loc>
+  <lastmod>2023-09-04T01:53:51+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marsals1050.github.io/CSOC_2023/index.html</loc>
+  <lastmod>2023-09-04T01:53:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
